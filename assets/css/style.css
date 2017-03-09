@@ -1,0 +1,226 @@
+/*
+
+Specs:
+
+Colors:
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+Dimensions:
+
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+
+*/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../images/background_symphony.png") repeat #4aaaa5;
+	background-attachment: fixed;
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a {
+	color: #96999F;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+hr {
+	color: #96999F;
+}
+
+header {
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #cccccc;
+	overflow: auto;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+nav {
+	padding: 20px;
+	float: left;
+	display: inline;
+	margin-left: 38%;
+}
+
+section {
+	width: 650px;
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #dddddd;
+	padding: 20px;
+	clear: both;
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 250px;
+	padding: 0px 10px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: inline;
+}
+
+form {
+	width: 650px;
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #dddddd;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+footer {
+	background: #666666;
+	clear: both;
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+	overflow: auto;
+	padding: 0px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #96999F;
+
+}
+
+h1, h2, h3, .foliolabel {
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	padding: 20px;
+}
+
+h1 {
+	background: #4aaaa5;
+	font-size: 200%;
+	font-weight: 700;
+	color: #ffffff;
+	display: inline;
+	float: left;
+	margin-left: 10%;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+p {
+	padding: 10px;
+}
+
+.abtme {
+	clear: both;
+	padding: 20px;
+	display: inline;
+}
+
+.mypic {
+	float: left;
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+}
+
+.folio {
+	clear: both;
+	padding: 20px;
+}
+
+.foliolabel {
+	clear: both;
+	background: #4aaaa5;
+	display: inline;
+	width: 300px;
+	color: #ffffff;
+	font-weight: 300;
+	text-align: center;
+	padding: 20px 0px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.project {
+	float: left;
+	position: relative;
+   	width: 300px;
+   	margin-bottom: 2%;
+   	overflow:auto;
+}
+
+.project-1 {
+	position: relative;
+}
+
+.project-2 {
+	position: relative;
+}
+
+.project-3 {
+	position: relative;
+}
+
+.project-4 {
+	position: relative;
+}
+
+.project-5 {
+	position: relative;
+}
+
+.icon {
+	clear: both;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
