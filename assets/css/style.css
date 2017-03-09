@@ -224,3 +224,7 @@ p {
 	padding: 5px;
 }
 
+a.icon:hover {
+    text-decoration: none;
+}
+
