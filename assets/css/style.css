@@ -123,10 +123,11 @@ footer {
 	bottom: 0;
 	text-align: center;
 	color: #96999F;
+	border-top: solid;
 
 }
 
-h1, h2, h3, .foliolabel {
+h1, h2, h3, .foliolabel, .submitbtn {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	padding: 20px;
 }
@@ -215,6 +216,17 @@ p {
 
 .project-5 {
 	position: relative;
+}
+
+.submitbtn {
+	background: #4aaaa5;
+	width: 80px;
+	height: 40px;
+	color: #ffffff;
+	border: none;
+	border-collapse: collapse;
+	font-size: 125%;
+	text-align: center;
 }
 
 .icon {
