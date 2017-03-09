@@ -64,11 +64,12 @@ hr {
 
 header {
 	background: #ffffff;
-	border-collapse: collapse;
-	border-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
 	overflow: auto;
 	margin-bottom: 20px;
 	width: 100%;
+
 }
 
 nav {
@@ -123,7 +124,9 @@ footer {
 	bottom: 0;
 	text-align: center;
 	color: #96999F;
-	border-top: solid;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
 
 }
 
@@ -157,6 +160,7 @@ h3 {
 
 p {
 	padding: 10px;
+	text-indent: 1.5rem;
 }
 
 .abtme {
@@ -192,10 +196,10 @@ p {
 
 .project {
 	float: left;
-	position: relative;
    	width: 300px;
+   	height: 300px;
    	margin-bottom: 2%;
-   	overflow:auto;
+   	margin-left: 3%;
 }
 
 .project-1 {
