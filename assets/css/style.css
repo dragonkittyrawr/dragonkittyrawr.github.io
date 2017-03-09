@@ -69,14 +69,13 @@ header {
 	overflow: auto;
 	margin-bottom: 20px;
 	width: 100%;
-
 }
 
 nav {
 	padding: 20px;
 	float: left;
 	display: inline;
-	margin-left: 38%;
+	margin-left: 40%;
 }
 
 section {
@@ -85,7 +84,6 @@ section {
 	border-collapse: collapse;
 	border-color: #dddddd;
 	padding: 20px;
-	clear: both;
 	float: left;
 	margin-left: 10%;
 	margin-bottom: 20px;
@@ -115,18 +113,19 @@ form {
 footer {
 	background: #666666;
 	clear: both;
-	height: 40px;
+	height: 50px;
 	width: 100%;
 	margin-top: 10px;
 	overflow: auto;
 	padding: 0px;
 	position: absolute;
-	bottom: 0;
+	top: 100%;
 	text-align: center;
 	color: #96999F;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 5px;
+	vertical-align: middle;
 
 }
 
@@ -224,13 +223,12 @@ p {
 
 .submitbtn {
 	background: #4aaaa5;
-	width: 80px;
-	height: 40px;
-	color: #ffffff;
-	border: none;
-	border-collapse: collapse;
-	font-size: 125%;
-	text-align: center;
+    width: 95px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    font-size: 125%;
+    line-height: 2px;
 }
 
 .icon {
@@ -242,5 +240,10 @@ p {
 
 a.icon:hover {
     text-decoration: none;
+}
+
+.valid {
+	position: absolute;
+	bottom: 70;
 }
 
