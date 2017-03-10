@@ -159,13 +159,13 @@ h3 {
 
 p {
 	padding: 10px;
-	text-indent: 1.5rem;
 }
 
 .abtme {
 	clear: both;
 	padding: 20px;
 	display: inline;
+	text-indent: 1.5rem;
 }
 
 .mypic {
@@ -203,22 +203,47 @@ p {
 
 .project-1 {
 	position: relative;
+	background-image: url(http://lorempixel.com/300/300/cats/2);
+}
+
+div.project-1:hover {
+	background: url(../images/coming-soon.png) no-repeat #000000;
 }
 
 .project-2 {
 	position: relative;
+	background-image: url(http://lorempixel.com/300/300/cats/4);
+}
+
+div.project-2:hover {
+	background: url(../images/coming-soon.png) no-repeat #000000;
 }
 
 .project-3 {
 	position: relative;
+	background-image: url(http://lorempixel.com/300/300/cats/6);
+}
+
+div.project-3:hover {
+	background: url(../images/coming-soon.png) no-repeat #000000;
 }
 
 .project-4 {
 	position: relative;
+	background-image: url(http://lorempixel.com/300/300/cats/8);
+}
+
+div.project-4:hover {
+	background: url(../images/coming-soon.png) no-repeat #000000;
 }
 
 .project-5 {
 	position: relative;
+	background-image: url(http://lorempixel.com/300/300/cats/5);
+}
+
+div.project-5:hover {
+	background: url(../images/coming-soon.png) no-repeat #000000;
 }
 
 .submitbtn {
@@ -245,5 +270,6 @@ a.icon:hover {
 .valid {
 	position: absolute;
 	bottom: 70;
+	display: none;
 }
 
